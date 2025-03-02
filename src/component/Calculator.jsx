@@ -42,6 +42,10 @@ function Calculator() {
 
   return (
     <>
+
+      {/* <h1 className="inline" >Calculator</h1> */}
+     
+
       <div className="container cant2">
         <input
           placeholder="Enter value"
