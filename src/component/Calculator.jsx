@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import "./Calculator.css";
 
 function Calculator() {
-  // Corrected component name
+
 
   const [data, setData] = useState("");
  
+   
+  
 
   const getValue = (event) => {
     const value = event.target.value;
