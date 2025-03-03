@@ -5,6 +5,7 @@ function Calculator() {
   // Corrected component name
 
   const [data, setData] = useState("");
+ 
 
   const getValue = (event) => {
     const value = event.target.value;
@@ -42,14 +43,13 @@ function Calculator() {
 
   return (
     <>
-
-      {/* <h1 className="inline" >Calculator</h1> */}
-     
+      <h1 className="text-9xl heading m-7">Calculator</h1> {/* Added heading with Tailwind CSS classes */}
 
       <div className="container cant2">
         <input
-          placeholder="Enter value"
-          className="item1 bg-blue-50"
+
+          placeholder="Enter Value"
+          className="item1 bg-blue-50 rounded-lg p-2"
           name=""
           value={data}
           onKeyDown={handleKeyDown}
@@ -61,9 +61,11 @@ function Calculator() {
         <button onClick={getValue} value=")">
           &#41;
         </button>
-        <button onClick={getValue} value="%">
-          &#37;
+
+        <button onClick={BackFunction} value="Back">
+          &#9003;
         </button>
+
         <button onClick={AccountClear} value="AC">
           AC
         </button>
@@ -106,9 +108,11 @@ function Calculator() {
         <button onClick={getValue} value="0">
           0
         </button>
-        <button onClick={BackFunction} value="Back">
-          Back
+
+        <button onClick={getValue} value=".">
+          .
         </button>
+
         <button onClick={equalToFunction} value="=">
           &#61;
         </button>

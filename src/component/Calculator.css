@@ -1,41 +1,47 @@
-
-
 @import "tailwindcss";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: large; 
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold; /* Add this line to make the text bold */
+* {
+  /* margin: 0; */
+  padding: 0;
+  box-sizing: border-box;
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold; /* Add this line to make the text bold */
 }
 
-button{
-    background-color: aliceblue;
-     
-    /* margin: 2px; */
+button {
+  background-color: aliceblue;
+
+  /* margin: 2px; */
 }
 
-.cant2{
-    padding: 7px;
-    background-color: red;
-    width: 400px;
-    height: 290px;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 3px;
+.cant2 {
+  padding: 7px;
+  background-color: #6f7388;
+  width: 400px;
+  border-radius: 15px;
+  height: 290px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 3px;
 }
-.cant2>button{
-    cursor: pointer;
-    margin: 3px;
-    padding: 4px;
-    border-radius: 5px; 
+.cant2 > button {
+  cursor: pointer;
+  margin: 3px;
+  padding: 4px;
+  border-radius: 5px;
 }
 
-.item1{
-    margin: 3px;
-    padding: 4px;
-    grid-column-start: 1;
-    grid-column-end: 5;
+.item1 {
+  margin: 3px;
+  padding: 4px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(246, 234, 234);
+  /* margin: 10px;     */
 }

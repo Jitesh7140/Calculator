@@ -1,8 +1,12 @@
 #root {
   height: 100vh;
   display: flex; 
-  max-width: 1280px;
-  background-color: antiquewhite;
+  flex-direction: column;
+  max-width: 100%;
+  /* background-color: antiquewhite; */
+  background-image: url(https://img.freepik.com/premium-vector/seamless-educational-pattern-with-school-elements-vector-illustration-cards-posters-flyers_750332-115.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0 auto;  
   padding: 1rem; 
   text-align: center;
