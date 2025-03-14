@@ -8,8 +8,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  server: {
-    host: '172.16.2.114', // This makes Vite accessible on your local network
-    port: 3000, // Aapka port, jo bhi aap use kar rahe hain (default 5173 hota hai)
-  }
+  base: "/Quiz-App/",
+  // server: {
+  //   host: '172.16.2.114', // This makes Vite accessible on your local network
+  //   port: 3000, // Aapka port, jo bhi aap use kar rahe hain (default 5173 hota hai)
+  // }
 })
