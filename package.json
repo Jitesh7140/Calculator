@@ -1,17 +1,10 @@
 {
-  "homepage": "https://jitesh7140.github.io/Calculator/",
+  
   "name": "calculator",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+   
   "dependencies": {
     "@tailwindcss/vite": "^4.0.9",
     "react": "^19.0.0",
