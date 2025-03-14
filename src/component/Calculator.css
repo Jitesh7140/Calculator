@@ -18,9 +18,9 @@ button {
 .cant2 {
   padding: 7px;
   background-color: #6f7388;
-  width: 400px;
+  width: 330px;
   border-radius: 15px;
-  height: 290px;
+  height: 330px;
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 3px;
